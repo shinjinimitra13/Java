@@ -2,14 +2,9 @@ package com.guruofjava.deloitte2.api;
 
 public class Book {
 
-	int no_of_pages,
-		current_page;
-	String title,
-		   author,
-		   publisher;
-	boolean isOpen,
-			isClose;
-	
+	int no_of_pages,current_page;
+	String title,author, publisher;	   
+	boolean isOpen,isClose;
 	public Book()
 	{
 		no_of_pages = 100;
@@ -19,7 +14,6 @@ public class Book {
 		publisher = "Penguin Publication House";
 		isOpen = false;
 		isClose = true;
-		
 	}
 	public Book(int n,int c,String t,String a,String pb)
 	{
